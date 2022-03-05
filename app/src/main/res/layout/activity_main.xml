@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngtreedelicious_western_pizza_hq_pictures_504980"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:backgroundTint="#FFFFFF"
+            android:buttonTint="#000000"
+            android:text="@string/RadioButton"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:buttonTint="#000000"
+            android:text="@string/RadioButton1"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:buttonTint="#000000"
+            android:text="@string/RadioButton2"
+            android:textColor="#000000" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:buttonTint="#000000"
+        android:text="@string/CheckBox1"
+        android:textColor="#000000"
+        app:barrierMargin="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="363dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="30dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/editText"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:buttonTint="#000000"
+        android:text="@string/CheckBox2"
+        android:textColor="#000000"
+        app:barrierMargin="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox4"
+        app:layout_constraintStart_toStartOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:buttonTint="#000000"
+        android:text="@string/CheckBox4"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox6"
+        app:layout_constraintStart_toStartOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:background="@color/white"
+        android:buttonTint="#000000"
+        android:text="@string/CheckBox3"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="72dp"
+        android:background="#FFFFFF"
+        android:fontFamily="cursive"
+        android:text="@string/textview"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:buttonTint="#000000"
+        android:text="@string/CheckBox5"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox7"
+        app:layout_constraintStart_toStartOf="@+id/checkBox5"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:background="@color/white"
+        android:buttonTint="#000000"
+        android:text="@string/CheckBox"
+        android:textColor="#000000"
+        app:barrierMargin="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/white"
+        android:buttonTint="#000000"
+        android:text="@string/CheckBox6"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/checkBox6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="402dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

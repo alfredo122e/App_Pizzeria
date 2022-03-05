@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pizzeria</string>
+    <string name="textview">Pizzería Juanito</string>
+    <string name="textview1"></string>
+    <string name="editText">Ingrese su nombre:</string>
+    <string name="RadioButton">Pequeña $1500</string>
+    <string name="RadioButton1">Mediana $3000</string>
+    <string name="RadioButton2">Familiar $5000</string>
+    <string name="CheckBox">Carne $400</string>
+    <string name="CheckBox1">Peperoni $200</string>
+    <string name="CheckBox2">Tocino $450</string>
+    <string name="CheckBox3">Champiñon $250</string>
+    <string name="CheckBox4">Tomate $200</string>
+    <string name="CheckBox5">Choclo $200</string>
+    <string name="CheckBox6">Aceituna $250</string>
+    <string name="Button">ACEPTAR</string>
+    <string name="Button1">REGRESAR A PÁGINA PRINCIPAL</string>
+    <string name="Button3">Ver pedido</string>
+</resources>
